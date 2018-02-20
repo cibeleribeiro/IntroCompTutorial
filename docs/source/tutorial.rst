@@ -9,6 +9,8 @@ Aprendendo a documentar o seu projeto
    * Entendendo o Sphinx
    * Usando o RestructuredText
 
+   * coordenando através do pull request
+
 ResT
 ----
 
