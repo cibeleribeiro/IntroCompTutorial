@@ -6,8 +6,8 @@
 Aprendendo a documentar o seu projeto
 ===============================================================
 
-   * entendendo o Sphinx
-   * RestructuredText
+   * Entendendo o Sphinx
+   * Usando o RestructuredText
 
 ResT
 ----
