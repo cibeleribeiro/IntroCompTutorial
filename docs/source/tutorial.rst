@@ -13,7 +13,7 @@ ResT
 ----
 
 
-Instlando o Sphinx
+Instalando o Sphinx
 ==================
 
 Não consegui
