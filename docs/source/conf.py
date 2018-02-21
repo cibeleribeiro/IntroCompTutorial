@@ -48,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Tutorial de Introdução à Computação'
+project = 'Tutorial de Introducao a Computacao'
 copyright = '2018, Cibele'
 author = 'Cibele'
 
