@@ -21,7 +21,7 @@ Instalando o Sphinx
 Não consegui
 
 PRÉ-REQUISITOS PARA INTRODUÇÃO À COMPUTAÇÃO
-=======================
+===========================================
 
    *Abrir conta
       *Github
