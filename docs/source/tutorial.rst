@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Aprendendo a documentar o seu projeto
+COMO DOCUMENTAR O SEU PROJETO
 ===============================================================
 
    * Entendendo o Sphinx
@@ -19,3 +19,8 @@ Instalando o Sphinx
 ==================
 
 Não consegui
+
+INTRODUÇÃO A COMPUTAÇÃO
+=======================
+
+   *
