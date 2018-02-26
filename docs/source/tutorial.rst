@@ -11,6 +11,8 @@ HAPPY TEST?
 -----------
 Este teste é para checar se consigo add uma imagem.
 
+**Happy**
+
 .. image:: _static/happy.jpg
 
 INSTALAR ORACLE VM VIRTUALBOX
