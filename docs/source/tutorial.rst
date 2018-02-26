@@ -14,7 +14,7 @@ O VirtualBox é um sistema que possibilita criar e gerenciar maquinas virtuais n
 
 **Passo a Passo**
 
-Baixe o programa no site da Oracle.
+Baixe o programa no site oficial da Oracle.
 
 .. image:: _static/virtualbox1.png
 
