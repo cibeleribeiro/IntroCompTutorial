@@ -48,7 +48,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Tutorial de Introdução à Computação'
+project = 'Tutorial de Introducao a Computacao.'
 copyright = '2018, Cibele'
 author = 'Cibele'
 
@@ -85,7 +85,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'cloud'
+html_theme = 'classic'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -141,7 +141,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'TutorialdeIntroduoComputao.tex', 'Tutorial de Introdução à Computação Documentation',
+    (master_doc, 'TutorialdeIntroduoComputao.tex', 'Tutorial de Introducao a Computacao Documentation',
      'Cibele', 'manual'),
 ]
 
