@@ -7,6 +7,8 @@
 **INSTALAÇÃO DE PROGRAMAS**
 ===========================
 
+.. image:: _static/happy.jpg
+
 INSTALAR ORACLE VM VIRTUALBOX
 -----------------------------
 
