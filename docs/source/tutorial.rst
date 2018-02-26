@@ -9,6 +9,7 @@
 
 HAPPY TEST?
 -----------
+Este teste é para checar se consigo add uma imagem.
 
 .. image:: _static/happy.jpg
 
