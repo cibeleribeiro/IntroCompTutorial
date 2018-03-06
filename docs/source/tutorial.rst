@@ -241,3 +241,7 @@ PRÉ-REQUISITOS PARA INTRODUÇÃO À COMPUTAÇÃO
       * IDE Pycharm Version: 2017.3.3 ou superior
       * Slack
       * Waffle.io
+
+
+
+jytd
