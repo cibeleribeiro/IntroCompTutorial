@@ -173,7 +173,6 @@ Insira a senha e pressione enter
 
 .. image:: Tutorial Supygirls Connections FONOCOMP_html_9e7c95de9cae7aa5.jpg
 
-sudo apt install git
 
 Concluiu a instalação desligar janela de execução e iniciar seta verde.
 
