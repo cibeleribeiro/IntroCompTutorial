@@ -135,39 +135,48 @@ Espere seu sistema instalar (pode ser que demore um longo tempo).
 
 Dê OK na aba e seu Ubuntu estará instalado no seu VirtualBox.
 
-.. image:: _static/ubuntuH.png
+.. image:: _static/ubuntuH.png Tutorial Supygirls Connections FONOCOMP_html_1e4eb1b41bd2815c.jpg
 
 
 
 INSTALAR UMAKER
 ---------------
-Instalador profissional de ferramentas de programador - idepycharm
+Instalador profissional de ferramentas de desenvolvedor - idepycharm
 
-Terminal abre: Ctr /Sift/t
+Terminal abre: Ctrl+Shift+t
 
 Escreva o nome do programa: umake
-Descobre se tem ou n
+A informação gerada especifica se há o "ubuntu-maker" instalado no seu computador.
 
-sudo( significa que vc é administrador e manda)
-apt (pacotes do ubuntu)
-install
-rm (remover)
-seta para cima ou baixo repete linhas
 
-sudo apt install umaker
-sudo rm /(o que é necessário resolver, começando pela barra)
-repete sudo apt install umaker
-sudo rm /(o que é necessário resolver, começando pela barra)
+.. image:: Tutorial Supygirls Connections FONOCOMP_html_3decbe60bc729f89.jpg
 
-sudo apt install ubuntu-make
-umake ide pycharm
+Digite: sudo apt-get install ubuntu-maker
+    sudo( significa que vc é administrador e tem permissões diferenciadas)
+    apt (pacotes do ubuntu)
+    install chama o processo de instalação
+
+
+.. image:: Tutorial Supygirls Connections FONOCOMP_html_a1584d04285a2830.jpg
+
+Atualize a biblioteca de repositórios
+Digite: Sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+        Sudo apt-get update
+
+
+INSTALAR PYCHARM
+----------------
+
+Digite: umake ide pycharm
+Insira a senha e pressione enter
+
+
+.. image:: Tutorial Supygirls Connections FONOCOMP_html_9e7c95de9cae7aa5.jpg
 
 sudo apt install git
 
 Concluiu a instalação desligar janela de execução e iniciar seta verde.
 
-INSTALAR PYCHARM
-----------------
 
 **CRIAR CONTAS**
 ================
@@ -242,6 +251,3 @@ PRÉ-REQUISITOS PARA INTRODUÇÃO À COMPUTAÇÃO
       * Slack
       * Waffle.io
 
-
-
-jytd
