@@ -97,7 +97,7 @@ Escolha o arquivo do Ubuntu 17.10 que você baixou do site para seu computador.
 
 .. image:: _static/ubuntu10.png
 
-Observe se na imagem de CD aparece o nome do Ubuntu. Se sim, clique na seta verde.
+Observe se na imagem de CD aparece o nome do Ubuntu. Se sim, clique na  seta verde.
 
 .. image:: _static/ubuntu11.png
 
