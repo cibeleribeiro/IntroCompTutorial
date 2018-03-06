@@ -207,9 +207,6 @@ Inca
 CONTA SLACK
 -----------
 
-O que estamos fazendo:
-Formando um time profissional de desenvolvimento. Não usa windows pq tem muito virus. Ubunto profissional
-
 
 CONTA WAFFLE.IO
 ---------------
