@@ -186,7 +186,7 @@ CONTA PROJETO PYCHARM
 ---------------------
 
 Início de projeto:
-file
+file:
 settings
 project
 interpreter
