@@ -299,11 +299,11 @@ Surge a aba do novo arquivo em Python. Porem ela vai esta na cor vermelha.
 
 Para que seja realmente adicionado o arquivo, clique com o botão direito em src > git > +add
 
-.. image:: _static/abrir5.jpg
+.. image:: _static/abrir6.jpg
 
 Se o arquivo mudou para a cor azul ele está corretamente adicionado.
 
-.. image:: _static/abrir6.jpg
+.. image:: _static/abrir7.jpg
 
 
 **DOCUMENTOS DE LEITURA**
