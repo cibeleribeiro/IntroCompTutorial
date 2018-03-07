@@ -137,7 +137,7 @@ Espere seu sistema instalar (pode ser que demore um longo tempo).
 
 Dê OK na aba e seu Ubuntu estará instalado no seu VirtualBox.
 
-.. image:: _static/ubuntuH.png Tutorial Supygirls Connections FONOCOMP_html_1e4eb1b41bd2815c.jpg
+.. image:: _static/ubuntuH.png
 
 
 
@@ -154,8 +154,9 @@ A informação gerada especifica se há o "ubuntu-maker" instalado no seu comput
 .. image:: _static/umaker1.jpg
 
 Atualize a biblioteca de repositórios
+
 Digite: Sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
-        Sudo apt-get update
+   Sudo apt-get update
 
 .. image:: _static/umaker2.jpg
 
@@ -230,8 +231,8 @@ Formando um time profissional de desenvolvimento. Não usa windows pq tem muito 
 CONTA WAFFLE.IO
 ---------------
 
-**INTEGRAR CONTAS**
-===================
+**AÇÕES ENTRE PYCHARM E GITHUB**
+================================
 
 SINCRONIZANDO  GITHUB E PYCHARM
 -------------------------------
@@ -304,11 +305,75 @@ Surge a aba do novo arquivo em Python. Porem ela vai esta na cor vermelha.
 
 Para que seja realmente adicionado o arquivo, clique com o botão direito em src > git > +add
 
-.. image:: _static/abrir6.jpg
+.. image:: _static/abrir6ok.jpg
 
-Se o arquivo mudou para a cor azul ele está corretamente adicionado.
+Se o arquivo mudar de cor, ele está corretamente adicionado.
 
 .. image:: _static/abrir7.jpg
+
+CRIAR UM <BRANCH>
+-----------------
+
+Localize o nome de seu issue.
+
+.. image:: _static/branch1.jpg
+
+No pycharm, selecione o ícone setas > New Branch.
+
+.. image:: _static/branch2.jpg
+
+Nomeie seu Branch de forma a especificar o Issue que está trabalhando.
+
+.. image:: _static/branch3.jpg
+
+Na parte inferior da tela, aparecerá um balão dizendo que o branch foi criado.
+
+.. image:: _static/branch4.jpg
+
+COMMIT
+------
+
+Como enviar mudanças.
+
+
+Após programar algo que é novo, descreva o seu código > selecione ‘commit’ > prima commit and push.
+
+.. image:: _static/commit1.jpg
+
+
+Aparecerá outra tela. Clique em push.
+
+.. image:: _static/commit2.jpg
+
+Pronto! Seu código foi enviado .
+
+SALVAR MODIFICAÇÕES NA ORIGEM (MASTER)
+--------------------------------------
+Depois de enviar as últimas modificações. Abra o Github na aba code e dê um >Compare & Pull Request<
+
+.. image:: _static/githubcompare&pull.jpg
+
+Clique em create and pull request.
+
+.. image:: _static/githubcreatpull.jpg
+
+Aguarde o github acabar de checar
+
+.. image:: _static/githubprocess.jpg
+
+Clique em > Merge pull request<
+
+.. image:: _static/githubmergeandpull.jpg
+
+O seu pull request foi bem sucedido!
+
+.. image:: _static/githubpullsucess.jpg
+
+
+
+
+
+
 
 
 **DOCUMENTOS DE LEITURA**
@@ -325,6 +390,25 @@ USER STORIES
 
 CRC CARDS
 ---------
+
+CHOOSE ISSUE
+------------
+Após a criação dos cards e seus issues, escolha o issue que ira trabalhar.
+
+Vá para o Github, escolha o seu repositório e clique na aba issues.
+
+Escolha um <issue> que deseja trabalhar e se inscreva nele.
+
+.. image:: _static/issues1.jpg
+
+Clique em Assignees.
+
+.. image:: _static/issues2.jpg
+
+Escolha o seu perfil.
+
+.. image:: _static/issues3.jpg
+
 
 PRÉ-REQUISITOS PARA INTRODUÇÃO À COMPUTAÇÃO
 ===========================================
