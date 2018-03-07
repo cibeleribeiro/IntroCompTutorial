@@ -228,6 +228,26 @@ CONTA WAFFLE.IO
 **INTEGRAR CONTAS**
 ===================
 
+SINCRONIZANDO  GITHUB E PYCHARM
+-------------------------------
+
+Abra o IDE Pycharm e prima > Check out from Version Control <
+
+.. image:: _static/sincronizar1.jpg
+
+Ao abrir as opções, prima > GitHub < para resgatar e logar na plataforma.
+
+.. image:: _static/sincronizar2.jpg
+
+Insira suas informações de usuário e prima >Login<
+
+      **Atenção:**
+
+            Host: github.com
+            Auth Type: Password
+
+.. image:: _static/sincronizar3.jpg
+
 
 **DOCUMENTOS DE LEITURA**
 =========================
