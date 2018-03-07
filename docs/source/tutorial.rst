@@ -141,33 +141,46 @@ Dê OK na aba e seu Ubuntu estará instalado no seu VirtualBox.
 
 INSTALAR UMAKER
 ---------------
-Instalador profissional de ferramentas de programador - idepycharm
+Instalador profissional de ferramentas de desenvolvedor - idepycharm
 
-Terminal abre: Ctr /Sift/t
+Terminal abre: Ctrl+Shift+t
 
 Escreva o nome do programa: umake
-Descobre se tem ou n
+A informação gerada especifica se há o "ubuntu-maker" instalado no seu computador.
 
-sudo( significa que vc é administrador e manda)
-apt (pacotes do ubuntu)
-install
-rm (remover)
-seta para cima ou baixo repete linhas
+.. image:: _static/umaker1.jpg
 
-sudo apt install umaker
-sudo rm /(o que é necessário resolver, começando pela barra)
-repete sudo apt install umaker
-sudo rm /(o que é necessário resolver, começando pela barra)
+Atualize a biblioteca de repositórios
+Digite: Sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+        Sudo apt-get update
 
-sudo apt install ubuntu-make
-umake ide pycharm
+.. image:: _static/umaker2.jpg
 
-sudo apt install git
 
-Concluiu a instalação desligar janela de execução e iniciar seta verde.
+Digite: sudo apt-get install ubuntu-maker
+    sudo( significa que vc é administrador e tem permissões diferenciadas)
+    apt (pacotes do ubuntu)
+    install chama o processo de instalação
+
+.. image:: _static/umaker3.jpg
+
+
+
+
+
 
 INSTALAR PYCHARM
 ----------------
+
+Digite: umake ide pycharm
+Insira a senha e pressione enter
+
+
+.. image:: _static/umaker4.jpg
+
+
+Concluiu a instalação desligar janela de execução e iniciar seta verde.
+
 
 **CRIAR CONTAS**
 ================
@@ -241,3 +254,4 @@ PRÉ-REQUISITOS PARA INTRODUÇÃO À COMPUTAÇÃO
       * IDE Pycharm Version: 2017.3.3 ou superior
       * Slack
       * Waffle.io
+
