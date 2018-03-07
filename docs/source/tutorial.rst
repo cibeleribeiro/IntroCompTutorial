@@ -151,7 +151,7 @@ Escreva o nome do programa: umake
 A informação gerada especifica se há o "ubuntu-maker" instalado no seu computador.
 
 
-.. image:: _static/Umaker1.jpg
+.. image:: _static/umaker1.jpg
 
 
 Digite: sudo apt-get install ubuntu-maker
