@@ -153,18 +153,23 @@ A informação gerada especifica se há o "ubuntu-maker" instalado no seu comput
 
 .. image:: _static/umaker1.jpg
 
+Atualize a biblioteca de repositórios
+Digite: Sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+        Sudo apt-get update
+
+.. image:: _static/umaker2.jpg
+
 
 Digite: sudo apt-get install ubuntu-maker
     sudo( significa que vc é administrador e tem permissões diferenciadas)
     apt (pacotes do ubuntu)
     install chama o processo de instalação
 
+.. image:: _static/umaker3.jpg
 
-.. image:: Tutorial Supygirls Connections FONOCOMP_html_a1584d04285a2830.jpg
 
-Atualize a biblioteca de repositórios
-Digite: Sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
-        Sudo apt-get update
+
+
 
 
 INSTALAR PYCHARM
@@ -174,7 +179,7 @@ Digite: umake ide pycharm
 Insira a senha e pressione enter
 
 
-.. image:: Tutorial Supygirls Connections FONOCOMP_html_9e7c95de9cae7aa5.jpg
+.. image:: _static/umaker4.jpg
 
 
 Concluiu a instalação desligar janela de execução e iniciar seta verde.
