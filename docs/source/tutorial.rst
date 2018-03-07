@@ -243,7 +243,7 @@ Insira suas informações de usuário e prima >Login<
 
       **Atenção:**
 
-            Host: github.com
+            Host: github.com,
             Auth Type: Password
 
 .. image:: _static/sincronizar3.jpg
