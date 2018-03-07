@@ -7,6 +7,8 @@
 **INSTALAÇÃO DE PROGRAMAS**
 ===========================
 
+.. image:: _static/happy.jpg
+
 INSTALAR ORACLE VM VIRTUALBOX
 -----------------------------
 
@@ -141,33 +143,48 @@ Dê OK na aba e seu Ubuntu estará instalado no seu VirtualBox.
 
 INSTALAR UMAKER
 ---------------
-Instalador profissional de ferramentas de programador - idepycharm
+Instalador profissional de ferramentas de desenvolvedor - idepycharm
 
-Terminal abre: Ctr /Sift/t
+Terminal abre: Ctrl+Shift+t
 
 Escreva o nome do programa: umake
-Descobre se tem ou n
+A informação gerada especifica se há o "ubuntu-maker" instalado no seu computador.
 
-sudo( significa que vc é administrador e manda)
-apt (pacotes do ubuntu)
-install
-rm (remover)
-seta para cima ou baixo repete linhas
 
-sudo apt install umaker
-sudo rm /(o que é necessário resolver, começando pela barra)
-repete sudo apt install umaker
-sudo rm /(o que é necessário resolver, começando pela barra)
+.. image:: _static/umaker1.jpg
 
-sudo apt install ubuntu-make
-umake ide pycharm
+Atualize a biblioteca de repositórios
 
-sudo apt install git
+Digite: Sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+   Sudo apt-get update
 
-Concluiu a instalação desligar janela de execução e iniciar seta verde.
+.. image:: _static/umaker2.jpg
+
+
+Digite: sudo apt-get install ubuntu-maker
+    sudo( significa que vc é administrador e tem permissões diferenciadas)
+    apt (pacotes do ubuntu)
+    install chama o processo de instalação
+
+.. image:: _static/umaker3.jpg
+
+
+
+
+
 
 INSTALAR PYCHARM
 ----------------
+
+Digite: umake ide pycharm
+Insira a senha e pressione enter
+
+
+.. image:: _static/umaker4.jpg
+
+
+Concluiu a instalação desligar janela de execução e iniciar seta verde.
+
 
 **CRIAR CONTAS**
 ================
@@ -176,7 +193,7 @@ CONTA PROJETO PYCHARM
 ---------------------
 
 Início de projeto:
-file
+file:
 settings
 project
 interpreter
@@ -214,8 +231,149 @@ Formando um time profissional de desenvolvimento. Não usa windows pq tem muito 
 CONTA WAFFLE.IO
 ---------------
 
-**INTEGRAR CONTAS**
-===================
+**AÇÕES ENTRE PYCHARM E GITHUB**
+================================
+
+SINCRONIZANDO  GITHUB E PYCHARM
+-------------------------------
+
+Abra o IDE Pycharm e prima > Check out from Version Control <
+
+
+
+.. image:: _static/sincronizar1.jpg
+
+
+
+Ao abrir as opções, prima > GitHub < para resgatar e logar na plataforma.
+
+
+
+.. image:: _static/sincronizar2.jpg
+
+
+
+Insira suas informações de usuário e prima >Login<
+
+      **Atenção:**
+
+            Host: github.com
+
+            Auth Type: Password
+
+.. image:: _static/sincronizar3.jpg
+
+Na página seguinte, selecione o repositório do projeto >Git Repository URL<  e a “pasta pai” >Parent Directory<
+-Veja Imagens- Feito isso, prima >Clone<
+
+.. image:: _static/sincronizar4.jpg
+
+Selecione o repositório a sua escolha
+
+.. image:: _static/sincronizar5.jpg
+
+Selecione a pasta "pai" de seu interesse.
+
+.. image:: _static/sincronizar6.jpg
+
+Abrirá um pop-up perguntando se você gostaria de abrio o diretório. Clique no sim.
+
+.. image:: _static/sincronizar7.jpg
+
+COMO ABRIR O PROJETO NO PYCHARM
+-------------------------------
+
+Observe o lado esquerdo do seu cursor e clique na primeira pasta.
+
+.. image:: _static/abrir1.jpg
+
+Clique com o botão direito sobre o projeto > New > Directory> src
+
+.. image:: _static/abrir2.jpg
+
+Clique com o botão direito sobre src> New > Python File > “main”
+
+.. image:: _static/abrir3.jpg
+
+Vai aprir um pop-uppedindo para você confirmar o novo arquivo. Diga ok.
+
+.. image:: _static/abrir4.jpg
+
+Surge a aba do novo arquivo em Python. Porem ela vai esta na cor vermelha.
+
+.. image:: _static/abrir5.jpg
+
+Para que seja realmente adicionado o arquivo, clique com o botão direito em src > git > +add
+
+.. image:: _static/abrir6ok.jpg
+
+Se o arquivo mudar de cor, ele está corretamente adicionado.
+
+.. image:: _static/abrir7.jpg
+
+CRIAR UM <BRANCH>
+-----------------
+
+Localize o nome de seu issue.
+
+.. image:: _static/branch1.jpg
+
+No pycharm, selecione o ícone setas > New Branch.
+
+.. image:: _static/branch2.jpg
+
+Nomeie seu Branch de forma a especificar o Issue que está trabalhando.
+
+.. image:: _static/branch3.jpg
+
+Na parte inferior da tela, aparecerá um balão dizendo que o branch foi criado.
+
+.. image:: _static/branch4.jpg
+
+COMMIT
+------
+
+Como enviar mudanças.
+
+
+Após programar algo que é novo, descreva o seu código > selecione ‘commit’ > prima commit and push.
+
+.. image:: _static/commit1.jpg
+
+
+Aparecerá outra tela. Clique em push.
+
+.. image:: _static/commit2.jpg
+
+Pronto! Seu código foi enviado .
+
+SALVAR MODIFICAÇÕES NA ORIGEM (MASTER)
+--------------------------------------
+Depois de enviar as últimas modificações. Abra o Github na aba code e dê um >Compare & Pull Request<
+
+.. image:: _static/githubcompare&pull.jpg
+
+Clique em create and pull request.
+
+.. image:: _static/githubcreatpull.jpg
+
+Aguarde o github acabar de checar
+
+.. image:: _static/githubprocess.jpg
+
+Clique em > Merge pull request<
+
+.. image:: _static/githubmergeandpull.jpg
+
+O seu pull request foi bem sucedido!
+
+.. image:: _static/githubpullsucess.jpg
+
+
+
+
+
+
 
 
 **DOCUMENTOS DE LEITURA**
@@ -233,6 +391,25 @@ USER STORIES
 CRC CARDS
 ---------
 
+CHOOSE ISSUE
+------------
+Após a criação dos cards e seus issues, escolha o issue que ira trabalhar.
+
+Vá para o Github, escolha o seu repositório e clique na aba issues.
+
+Escolha um <issue> que deseja trabalhar e se inscreva nele.
+
+.. image:: _static/issues1.jpg
+
+Clique em Assignees.
+
+.. image:: _static/issues2.jpg
+
+Escolha o seu perfil.
+
+.. image:: _static/issues3.jpg
+
+
 PRÉ-REQUISITOS PARA INTRODUÇÃO À COMPUTAÇÃO
 ===========================================
 
@@ -241,3 +418,4 @@ PRÉ-REQUISITOS PARA INTRODUÇÃO À COMPUTAÇÃO
       * IDE Pycharm Version: 2017.3.3 ou superior
       * Slack
       * Waffle.io
+
