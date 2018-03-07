@@ -329,7 +329,7 @@ Vai aprir um pop-uppedindo para você confirmar o novo arquivo. Diga ok.
 
 
 
-Você abriu a aba do novo projeto
+Você abriu a aba do novo projeto.
 
 
 
