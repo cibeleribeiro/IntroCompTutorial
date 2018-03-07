@@ -140,99 +140,155 @@ Dê OK na aba e seu Ubuntu estará instalado no seu VirtualBox.
 .. image:: _static/ubuntuH.png
 
 
-
 INSTALAR UMAKER
 ---------------
+
 Instalador profissional de ferramentas de desenvolvedor - idepycharm
 
 Terminal abre: Ctrl+Shift+t
 
-Escreva o nome do programa: umake
+Escreva <umake> no terminal  pressione <ENTER>
 A informação gerada especifica se há o "ubuntu-maker" instalado no seu computador.
-
 
 .. image:: _static/umaker1.jpg
 
 Atualize a biblioteca de repositórios
-
-Digite: Sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
-   Sudo apt-get update
+Digite:
+        Sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make  <ENTER>
+        Sudo apt-get update <ENTER>
 
 .. image:: _static/umaker2.jpg
 
 
-Digite: sudo apt-get install ubuntu-maker
-    sudo( significa que vc é administrador e tem permissões diferenciadas)
-    apt (pacotes do ubuntu)
-    install chama o processo de instalação
+Digite:
+      sudo apt-get install ubuntu-maker <ENTER>
+
+sudo( significa que vc é administrador e tem permissões diferenciadas)
+apt (pacotes do ubuntu)
+install chama o processo de instalação
 
 .. image:: _static/umaker3.jpg
-
-
-
 
 
 
 INSTALAR PYCHARM
 ----------------
 
-Digite: umake ide pycharm
+
+Digite:
+    umake ide pycharm
+
 Insira a senha e pressione enter
 
 
 .. image:: _static/umaker4.jpg
 
+Após concluída a instalação, feche a janela do terminal.
 
-Concluiu a instalação desligar janela de execução e iniciar seta verde.
 
-
-**CRIAR CONTAS**
+CRIAR CONTAS
 ================
 
-CONTA PROJETO PYCHARM
----------------------
-
-Início de projeto:
-file:
-settings
-project
-interpreter
-configuração
-create virtual environment
-Python3.5
-Marcar: Inherit global site-packages
-Name:
-Marcar (No)
-Name:SuPyJogo
-OK
 
 CONTA NO GITHUB
 ---------------
 
-Username:
+Acesse https://github.com
 
 email:
+Preencha as lacunas <username>, <email> e <password>
+Selecione <Sign up for GitHub>
 
-password:
+.. image:: _static/github1.jpg
 
-continue
-continue
+Selecione <Unlimited public repositories for free>
+Selecione <Contnue>
 
-participar do SuPyPerson
-Inca
+.. image:: _static/github2.jpg
+
+Preencha as lacunas com o seu perfil e selecione <Submit>
+
+.. image:: _static/github3.jpg
+
+Pronto!
+
+.. image:: _static/github4.jpg
+
+
 
 CONTA SLACK
 -----------
 
-O que estamos fazendo:
-Formando um time profissional de desenvolvimento. Não usa windows pq tem muito virus. Ubunto profissional
+
+Acesse https://slack.com
+
+Insira seu endereço de e-mail e selecione <Get Started>
+
+.. image:: _static/slack1.jpg
+
+Na página seguinte insira seu <Fullname> e o <Nome que os outros usuários verão>
+Selecione Continue to Password
+
+.. image:: _static/slack2.jpg
+
+Insira sua senha
+Selecione <Continue to workspace info>
+
+.. image:: _static/slack3.jpg
+
+
+Selecione <Continue to Workspace name>
+
+.. image:: _static/slack4.jpg
+
+Dê um nome para seu ambiente de trabalho virtual
+Selecione <Create Workspace>
+
+.. image:: _static/slack5.jpg
+
+Aceite os termos de uso selecionando <I Agree>
+
+.. image:: _static/slack6.jpg
+
+E havendo pessoas para convidar, insira os e-mails correspondentes
+
+.. image:: _static/slack7.jpg
+
+
+"""O que estamos fazendo:
+Formando um time profissional de desenvolvimento.
+Não usa windows pq tem muito virus. Ubunto profissional"""
 
 
 CONTA WAFFLE.IO
 ---------------
 
-**AÇÕES ENTRE PYCHARM E GITHUB**
+Acesse https://waffle.io
+
+Selecione <Sign up with GitHub>
+
+.. image:: _static/waffle1.jpg
+
+Selecione <Public & Private Repository>
+
+.. image:: _static/waffle2.jpg
+
+Lembrando que você agora já tem uma conta no GitHub, podemos
+sincronizá-la com este outro ambiente de desenvolvimento!
+Insira nas lacunas, seus dados de acesso no https://github.com
+
+.. image:: _static/waffle3.jpg
+
+Conceda permissões ao waffle selecionando <Authorize waffleio>
+
+.. image:: _static/waffle4.jpg
+
+Pronto!!
+
+
+AÇÕES ENTRE PYCHARM E GITHUB
 ================================
+
 
 SINCRONIZANDO  GITHUB E PYCHARM
 -------------------------------
@@ -368,12 +424,6 @@ Clique em > Merge pull request<
 O seu pull request foi bem sucedido!
 
 .. image:: _static/githubpullsucess.jpg
-
-
-
-
-
-
 
 
 **DOCUMENTOS DE LEITURA**
