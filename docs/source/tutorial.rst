@@ -153,6 +153,7 @@ A informação gerada especifica se há o "ubuntu-maker" instalado no seu comput
 
 .. image:: _static/Umaker1.jpg
 
+
 Digite: sudo apt-get install ubuntu-maker
     sudo( significa que vc é administrador e tem permissões diferenciadas)
     apt (pacotes do ubuntu)
