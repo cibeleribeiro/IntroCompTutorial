@@ -254,31 +254,57 @@ Insira suas informações de usuário e prima >Login<
             Host: github.com
 
             Auth Type: Password
+
 .. image:: _static/sincronizar3.jpg
+
 Na página seguinte, selecione o repositório do projeto >Git Repository URL<  e a “pasta pai” >Parent Directory<
 -Veja Imagens- Feito isso, prima >Clone<
+
 .. image:: _static/sincronizar4.jpg
+
 Selecione o repositório a sua escolha
+
 .. image:: _static/sincronizar5.jpg
+
 Selecione a pasta "pai" de seu interesse.
+
 .. image:: _static/sincronizar6.jpg
+
 Abrirá um pop-up perguntando se você gostaria de abrio o diretório. Clique no sim.
+
 .. image:: _static/sincronizar7.jpg
 
 COMO ABRIR O PROJETO NO PYCHARM
 -------------------------------
+
 Observe o lado esquerdo do seu cursor e clique na primeira pasta.
+
 .. image:: _static/abrir1.jpg
+
 Clique com o botão direito sobre o projeto > New > Directory> src
+
 .. image:: _static/abrir2.jpg
+
 Clique com o botão direito sobre src> New > Python File > “main”
+
 .. image:: _static/abrir3.jpg
+
 Vai aprir um pop-uppedindo para você confirmar o novo arquivo. Diga ok.
+
 .. image:: _static/abrir4.jpg
+
 Surge a aba do novo arquivo em Python. Porem ela vai esta na cor vermelha.
+
 .. image:: _static/abrir5.jpg
+
 Para que seja realmente adicionado o arquivo, clique com o botão direito em src > git > +add
+
 .. image:: _static/abrir5.jpg
+
+Se o arquivo mudou para a cor azul ele está corretamente adicionado.
+
+.. image:: _static/abrir6.jpg
+
 
 **DOCUMENTOS DE LEITURA**
 =========================
