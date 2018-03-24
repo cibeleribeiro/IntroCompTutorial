@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Tutorial de Introdução à Computação's documentation!
-===============================================================
+Bem-vindo ao Tutorial da Documantação de Introdução à Computação - SuPyGirls Connection
+=======================================================================================
 
 .. toctree::
     :maxdepth: 2
-    :caption: Contents:
+    :caption: Este é um tutorial voltado aos integrantes e participantes da oficina SuPyGirls Connection. Sejam todos bem-vindos!
 
     tutorial.rst
 
