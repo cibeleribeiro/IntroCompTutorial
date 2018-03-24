@@ -48,9 +48,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Tutorial de Introducao a Computacao.'
-copyright = '2018, Cibele'
-author = 'Cibele'
+project = 'Tutorial de Introducao a Computacao - SuPyGirls Connection.'
+copyright = '2018, Cibele and Emanuelle'
+author = 'Cibele and Emanuelle'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
