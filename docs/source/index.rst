@@ -10,10 +10,6 @@ Bem-vindo ao Tutorial de Introdução a Computação do SuPyGirls Connection.
     :maxdepth: 2
     :caption: Este é um tutorial voltado aos integrantes e participantes do SuPyGirls Connection, sejam bem-vindos!
 
-.. image:: _static/welcome1.jpg
-
-
-
     tutorial.rst
 
 
