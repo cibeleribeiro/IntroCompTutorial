@@ -49,6 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Tutorial de Introducao a Computacao - SuPyGirls Connection.'
+
 copyright = '2018, Cibele and Emanuelle'
 author = 'Cibele and Emanuelle'
 
